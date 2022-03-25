@@ -13,7 +13,7 @@ include_once 'config.php';
 
 $settings = array(
     'userName'   => 'admin',             // Create a new user       
-    'password'   => 'SPTltd123!@#'              // Make it a secure password
+    'password'   => 'pass'              // Make it a secure password
 );
 
 $initAuth = new ApiAuth();

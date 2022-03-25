@@ -18,7 +18,7 @@ if (isset($name, $email_id)) {
 	$mail->SMTPDebug  = 2;       // enables SMTP debug information (for testing)
 	$mail->Port = 465;                           // Enable encryption, 'ssl' also
 	$mail->Username = 'noreply@sasteloans.com';                 // SMTP username
-	$mail->Password = 'ZepHCgAa';                           // SMTP password
+	$mail->Password = 'pass';                           // SMTP password
 	//$mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted. Keep commented for Gmail SMTP
 	
 	$host = "ssl://smtp.dreamhost.com";

@@ -13,7 +13,7 @@ include_once 'config.php';
 // ApiAuth->newAuth() will accept an array of Auth settings
 $settings = array(
     'userName'   => 'admin',             // Create a new user       
-    'password'   => 'SPTltd123!@#'              // Make it a secure password
+    'password'   => 'pass'              // Make it a secure password
 );
 
 // Initiate the auth object specifying to use BasicAuth
